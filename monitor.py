@@ -33,7 +33,11 @@ def monitor():
                                 current_size,
                                 old_time,
                                 current_time
-    
+                            )
+
+                            # قاعدة خاصة للـ whitelist:
+                            # لو الامتداد طبيعي، مايتعملوش block
+                            # إلا لو فيه سبب قوي جدًا أو أكتر من علامة خطر
                             is_whitelisted = "whitelisted extension" in reasons
                             danger_signs = [r for r in reasons if r != "whitelisted extension"]
 

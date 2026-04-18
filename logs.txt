@@ -1,0 +1,4 @@
+Suspicious activity: ./test_folder\TASK1.pdf
+2026-04-18 18:37:05.259950 - Suspicious: ./testfolder\TASK1.pdf
+2026-04-18 18:43:55.434451 - Suspicious: ./testfolder\TASK3.pdf
+2026-04-18 18:55:44.699254 - BLOCKED - ./testfolder\virus.encrypted - score=80, reasons=['suspicious extension', 'rapid modification']
